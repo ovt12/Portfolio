@@ -1,18 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Inter:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .article__div {
   height: 20vh;
   width: 30vh;
-  border: 2px solid rgb(0, 0, 0);
-  background-color: rgb(161, 57, 57);
+  border: 20px solid #111315;
+  background-color: #111315;
+}
+.article__div--deactive {
+  display: none;
 }
 
-.nav__name {
+.article__div--active img {
+  border: 2px solid black;
+  background-color: #111315;
+  border-radius: 100%;
+  padding: 0.4rem;
+}
+
+.body__nav {
+  border: 2px solid red;
+  margin-bottom: 100px;
+}
+
+.nav__1 {
   border: 2px solid red;
 }
 
-.article__div {
-  height: 20vh;
-  width: 30vh;
-  border: 2px solid black;
-  background-color: black;
-} /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=main.css.map */
+.nav__2 {
+  border: 2px solid red;
+  display: none;
+}
+
+.nav__3 {
+  border: 2px solid;
+  display: none;
+}
+
+h1 {
+  font-family: "Cormorant";
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: "Cormorant";
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+p {
+  font: "Inter";
+  font-size: 0.5rem;
+  color: #111315;
+  line-height: 2;
+  border: 2px solid red;
+  padding: 3rem;
+}
+
+.main__div2 {
+  border: 2px solid orange;
+  display: none;
+}/*# sourceMappingURL=main.css.map */

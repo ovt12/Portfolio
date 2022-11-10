@@ -1,14 +1,84 @@
+@use "./variables" as *;
 
-// Black Video Boxes
-.article__div {
-    height: 20vh;
-    width: 30vh;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(161, 57, 57);
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-// Navigation Bar
+// Black Video Boxes(Mobile)
+.article{
+  
+    &__div {
+        height: 20vh;
+        width: 30vh;
+        border: 20px solid $color-black;
+        background-color: $color-black;  
+    }
 
-.nav__name {
-    border: 2px solid red;
+    &__div--deactive {
+        display: none;
+    }
+}
+
+
+.article__div--active{
+    img {
+        border: 2px solid black;
+        background-color: $color-black;
+        border-radius: 100%;
+        padding: 0.4rem;
+    }
+}
+  
+
+// Navigation Bar(Mobile)
+
+.body__nav {
+  border: 2px solid red;
+  margin-bottom: 100px;
+}
+
+.nav__1 {
+  border: 2px solid red;
+}
+
+.nav__2 {
+  border: 2px solid red;
+  display: none;
+}
+
+.nav__3 {
+  border: 2px solid;
+  display: none;
+}
+
+// Heading & Paragraphs fonts
+
+h1 {
+  font-family: $text-heading;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: $text-heading;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+p {
+  font: $text-primary;
+  font-size: 0.5rem;
+  color: $color-black;
+  line-height: 2;
+  border: 2px solid red;
+  padding: 3rem;
+}
+
+// desktop components not needed for mobile
+
+.main__div2 {
+  border: 2px solid orange;
+  display: none;
 }
