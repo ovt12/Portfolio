@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Inter:wght@100&display=swap");
+.article__div {
+  height: 20vh;
+  width: 30vh;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(161, 57, 57);
+}
+
+.nav__name {
+  border: 2px solid red;
+}
+
+.article__div {
+  height: 20vh;
+  width: 30vh;
+  border: 2px solid black;
+  background-color: black;
+} /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=main.css.map */
