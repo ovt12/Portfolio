@@ -9,43 +9,24 @@
 
 
 // Black Video Boxes(Mobile)
-.article{
-
-  
-    // &__div {
-    //     height: 20vh;
-    //     width: 30vh;
-    //     border: 20px solid $color-black;
-    //     background-color: $color-black;
-        
-        
-    // }
-
-    // &__div--deactive {
-    //     display: none;
-    // }
-}
-
 
 .article__div--active{
-    
     
 img {
         border: 2px solid rgb(30, 174, 128);
         background-color: $color-black;
         border-radius: 100%;
         padding: 0.4rem;
-        margin: 0.5rem;
-        width: 3rem;
+        margin: 0.2rem;
+        width: 2rem;
     }
 
 .img__box {
-    border: 20px solid orange;
+    border: 2px solid orange;
     border-radius: 0%;
-    height: 10rem;
-    width: 17rem;
+    height: 19rem;
+    width: 25rem;
 }
-
 
 }
 
@@ -55,21 +36,31 @@ img {
     // display: none;
 
     img {
-        border: 2px solid rgb(30, 174, 128);
+        border: 2px solid rgb(178, 223, 30);
         background-color: $color-black;
         border-radius: 100%;
         padding: 0.4rem;
-        margin: 0.5rem;
-        width: 3rem;
+        margin: 0.2rem;
+        width: 2rem;
     }
 
     .img__box {
-        border: 20px solid orange;
+        border: 2px solid rgb(142, 46, 182);
         border-radius: 0%;
-        height: 10rem;
-        width: 17rem;
+        height: 19rem;
+        width: 25rem;
     }
 
+}
+
+
+// For the projects and symbols
+
+.div__title {
+    border: 2px solid purple;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
 }
   
 
@@ -106,6 +97,13 @@ h2 {
   font-family: $text-heading;
   font-size: 2rem;
   font-weight: bolder;
+}
+
+h3 {
+    font-family: $text-heading;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 2rem;
 }
 
 p {
