@@ -5,30 +5,71 @@
   padding: 0;
   text-align: center;
 }
+// Portfolio area as a whole
+
 
 // Black Video Boxes(Mobile)
 .article{
-  
-    &__div {
-        height: 20vh;
-        width: 30vh;
-        border: 20px solid $color-black;
-        background-color: $color-black;  
-    }
 
-    &__div--deactive {
-        display: none;
-    }
+  
+    // &__div {
+    //     height: 20vh;
+    //     width: 30vh;
+    //     border: 20px solid $color-black;
+    //     background-color: $color-black;
+        
+        
+    // }
+
+    // &__div--deactive {
+    //     display: none;
+    // }
 }
 
 
 .article__div--active{
-    img {
-        border: 2px solid black;
+    
+    
+img {
+        border: 2px solid rgb(30, 174, 128);
         background-color: $color-black;
         border-radius: 100%;
         padding: 0.4rem;
+        margin: 0.5rem;
+        width: 3rem;
     }
+
+.img__box {
+    border: 20px solid orange;
+    border-radius: 0%;
+    height: 10rem;
+    width: 17rem;
+}
+
+
+}
+
+.article__div--deactive {
+    
+    // For desktop view 
+    // display: none;
+
+    img {
+        border: 2px solid rgb(30, 174, 128);
+        background-color: $color-black;
+        border-radius: 100%;
+        padding: 0.4rem;
+        margin: 0.5rem;
+        width: 3rem;
+    }
+
+    .img__box {
+        border: 20px solid orange;
+        border-radius: 0%;
+        height: 10rem;
+        width: 17rem;
+    }
+
 }
   
 
