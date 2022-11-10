@@ -8,10 +8,11 @@
     <link href='https://css.gg/eye.css' rel='stylesheet'>
 </head>
 <body>
-    <nav class="nav__name">Oliver Taylor</nav>
-    <nav class="nav__about">About</nav>
-    <nav class="nav__portfolio">Portfolio</nav>
-    <nav class="nav__contact">Contact</nav>
+    <div class="body__nav">
+        <nav class="nav__1">Oliver Taylor</nav>
+        <nav class="nav__2">About</nav>
+        <nav class="nav__3">Portfolio</nav>
+    </div>
 <header>
     <h1>Junior Software Developer.</h1>
     <p>
@@ -23,44 +24,47 @@
 </header>
 
 <main>
-    <h2>ABOUT.<h2>
-    <img src="./images/portfolio.png" alt="">
-    <p>
-        Nunc aliquam faucibus ac in donec commodo id. 
-        Dui viverra sit feugiat massa pellentesque arcu at quis. 
-        Diam, elementum morbi pellentesque blandit suscipit sit. 
-        Neque, et consequat phasellus auguNunc aliquam faucibus ac in donec commodo id. 
-        Dui viverra sit feugiat massa pellentesque arcu at quis. 
-        Diam, elementum morbi pellentesque blandit suscipit sit. 
-        Neque, et consequat phasellus augu
-    </p>
-    <p>
-        Nunc aliquam faucibus ac in donec commodo id. 
-        Dui viverra sit feugiat massa pellentesque arcu at quis. 
-        Diam, elementum morbi pellentesque blandit suscipit sit. 
-        Neque, et consequat phasellus auguNunc aliquam faucibus ac in donec commodo id. 
-        Dui viverra sit feugiat massa pellentesque arcu at quis. 
-        Diam, elementum morbi pellentesque blandit suscipit sit. 
-        Neque, et consequat phasellus augu
-    </p>
+    <div class="main__div1">
+        <h2>ABOUT.<h2>
+        <img src="./images/portfolio.png" alt="">
+        <p>
+            Nunc aliquam faucibus ac in donec commodo id. 
+            Dui viverra sit feugiat massa pellentesque arcu at quis. 
+            Diam, elementum morbi pellentesque blandit suscipit sit. 
+            Neque, et consequat phasellus auguNunc aliquam faucibus ac in donec commodo id. 
+            Dui viverra sit feugiat massa pellentesque arcu at quis. 
+            Diam, elementum morbi pellentesque blandit suscipit sit. 
+            Neque, et consequat phasellus augu
+        </p>
+        <p>
+            Nunc aliquam faucibus ac in donec commodo id. 
+            Dui viverra sit feugiat massa pellentesque arcu at quis. 
+            Diam, elementum morbi pellentesque blandit suscipit sit. 
+            Neque, et consequat phasellus auguNunc aliquam faucibus ac in donec commodo id. 
+            Dui viverra sit feugiat massa pellentesque arcu at quis. 
+            Diam, elementum morbi pellentesque blandit suscipit sit. 
+            Neque, et consequat phasellus augu
+        </p>
+    </div>
+    <div class="main__div2">
+        <h2>SKILLS.</h2>
+        <p>
+            Nunc aliquam faucibus ac in donec commodo id. 
+            Dui viverra sit feugiat massa pellentesque arcu at quis. 
+            Diam, elementum morbi pellentesque blandit suscipit sit.
+        </p>
 
-    <h2>SKILLS.</h2>
-    <p>
-        Nunc aliquam faucibus ac in donec commodo id. 
-        Dui viverra sit feugiat massa pellentesque arcu at quis. 
-        Diam, elementum morbi pellentesque blandit suscipit sit.
-    </p>
-
-    <div class="div__img">
-        <img src="./images/git2.png" alt="">
-        <img src="./images/HTML5.png" alt="">
-        <img src="./images/CSS3.png" alt="">
-        <img src="./images/JavaScript.png" alt="">
-        <img src="./images/SCSS.png" alt="">
-        <img src="./images/BEM.png" alt="">
-        <img src="./images/React.png" alt="">
-        <img src="./images/Java.png" alt="">
-        <img src="./images/SpringBoot.png" alt="">
+        <div class="div__img">
+            <img src="./images/git2.png" alt="">
+            <img src="./images/HTML5.png" alt="">
+            <img src="./images/CSS3.png" alt="">
+            <img src="./images/JavaScript.png" alt="">
+            <img src="./images/SCSS.png" alt="">
+            <img src="./images/BEM.png" alt="">
+            <img src="./images/React.png" alt="">
+            <img src="./images/Java.png" alt="">
+            <img src="./images/SpringBoot.png" alt="">
+        </div>
     </div>
 
 
@@ -68,24 +72,31 @@
 
 <article>
     <h2>PORTFOLIO.</h2>
-    <div class="article__div"></div>
-        PROJECT 1
-        <i class="gg-eye"></i>
-    <div class="article__div"></div>
-        PROJECT 2
-        <i class="gg-eye"></i>
-    <div class="article__div"></div>
-        PROJECT 3
-        <i class="gg-eye"></i>
-    <div class="article__div"></div>
-        PROJECT 4
-        <i class="gg-eye"></i>
-    <div class="article__div"></div>
-        PROJECT 5
-        <i class="gg-eye"></i>
-    <div class="article__div"></div>
-        PROJECT 6
-        <i class="gg-eye"></i>
+    <div class="article__div--active">
+        <div class="article__div"></div>
+            PROJECT 1
+            <i class="gg-eye"></i>
+            <img src="./images/arrow.png">
+        <div class="article__div"></div>
+            PROJECT 2
+            <i class="gg-eye"></i>
+            <img src="./images/arrow.png">
+        <div class="article__div"></div>
+            PROJECT 3
+            <i class="gg-eye"></i>
+            <img src="./images/arrow.png">
+    </div>
+    <div class="article__div--deactive">
+        <div class="article__div"></div>
+            PROJECT 4
+            <i class="gg-eye"></i>
+        <div class="article__div"></div>
+            PROJECT 5
+            <i class="gg-eye"></i>
+        <div class="article__div"></div>
+            PROJECT 6
+            <i class="gg-eye"></i>
+    </div>
 </article>
 
 <h1>Get in touch.</h1>
