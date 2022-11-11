@@ -205,9 +205,15 @@ footer img {
     display: flex;
     align-items: center;
   }
-  article {
+  .article__div--active {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .article__div--active .img__box {
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
   }
 }/*# sourceMappingURL=main.css.map */
