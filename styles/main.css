@@ -94,12 +94,23 @@ h3 {
 }
 
 p {
-  font: "Inter";
+  font-family: "Inter";
   font-size: 0.5rem;
   color: #111315;
   line-height: 2;
   border: 2px solid red;
   padding: 3rem;
+}
+
+button {
+  border: 2px solid #111315;
+  height: 10vh;
+  width: 60vw;
+  padding: 2rem;
+  margin: 2rem;
+  font-family: "Cormorant";
+  font-weight: bolder;
+  text-align: center;
 }
 
 .main__div2 {
