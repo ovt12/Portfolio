@@ -110,24 +110,6 @@ img {
     display: none;
   }
 }
- 
-
-// DELETE ONCE WORKING / NOT NEEDED
-// .nav__1 {
-//   border: 2px solid rgb(18, 178, 132);
-//   font-family: $text-heading;
-//   font-size: 1.5rem;
-// }
-
-// .nav__2 {
-//   border: 2px solid red;
-//   display: none;
-// }
-
-// .nav__3 {
-//   border: 2px solid red;
-//   display: none;
-// }
 
 // Heading & Paragraphs fonts
 
@@ -300,16 +282,33 @@ img {
 
         
       }
+// Black boxes and content
 
+.article__div--active {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+    .img__box {
+        width: 20vw;
+        height: 15vh;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+   
+    
+}
                
-    article  {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            }
+
+
+
+
+}
             
         
-      }
+        
+      
     
 
     
