@@ -12,12 +12,14 @@
   padding: 0.4rem;
   margin: 0.2rem;
   width: 2rem;
+  height: 2rem;
 }
 .article__div--active .img__box {
   border: 2px solid orange;
   border-radius: 0%;
   height: 19rem;
   width: 25rem;
+  margin-top: 2rem;
 }
 
 .article__div--deactive img {
@@ -27,28 +29,37 @@
   padding: 0.4rem;
   margin: 0.2rem;
   width: 2rem;
+  height: 2rem;
 }
 .article__div--deactive .img__box {
   border: 2px solid rgb(142, 46, 182);
   border-radius: 0%;
   height: 19rem;
   width: 25rem;
+  margin-top: 2rem;
 }
 
 .div__title {
-  border: 2px solid purple;
+  border: 2px solid rgb(25, 136, 161);
   display: flex;
-  justify-content: space-evenly;
-  font-size: 1.5rem;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.div__title h3 {
+  font-size: 3rem;
+}
+.div__title img {
+  margin-top: 2rem;
 }
 
 .body__nav {
   border: 2px solid red;
-  margin-bottom: 100px;
 }
 
 .nav__1 {
   border: 2px solid red;
+  font-family: "Cormorant";
+  font-size: 1.5rem;
 }
 
 .nav__2 {
@@ -57,14 +68,16 @@
 }
 
 .nav__3 {
-  border: 2px solid;
+  border: 2px solid red;
   display: none;
 }
 
 h1 {
   font-family: "Cormorant";
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: lighter;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
 h2 {
