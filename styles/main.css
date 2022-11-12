@@ -22,6 +22,9 @@
   margin-top: 2rem;
 }
 
+.article__div--deactive {
+  display: none;
+}
 .article__div--deactive img {
   border: 2px solid rgb(178, 223, 30);
   background-color: #000000;
@@ -77,7 +80,10 @@ h1 {
   font-family: "Cormorant";
   font-size: 6rem;
   font-weight: lighter;
-  margin: 5rem, 0rem, 2rem, 1rem;
+  text-align: center;
+}
+
+.header__h1 {
   text-align: start;
 }
 
@@ -115,8 +121,8 @@ button {
   font-weight: bolder;
 }
 
-.bottom_heading {
-  text-align: start;
+.bottom_heading h1 {
+  background-color: 5px solid darkkhaki;
 }
 
 footer {
@@ -209,11 +215,27 @@ footer img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
   }
   .article__div--active .img__box {
     width: 20vw;
     height: 15vh;
     display: flex;
     flex-wrap: nowrap;
+  }
+  .article__div--deactive {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .article__div--deactive .img__box {
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .bottom__heading h1 {
+    margin-top: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */
