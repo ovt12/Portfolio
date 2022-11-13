@@ -59,6 +59,7 @@
 
 .body__nav {
   border: 2px solid red;
+  margin-bottom: 3rem;
 }
 .body__nav--1 {
   border: 2px solid rgb(102, 128, 54);
@@ -96,6 +97,7 @@ h2 {
   font-family: "Cormorant";
   font-size: 2rem;
   font-weight: bolder;
+  text-align: start;
 }
 
 h3 {
@@ -114,6 +116,8 @@ p {
   border: 2px solid red;
   width: 95vw;
   padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: start;
 }
 
 button {
@@ -126,8 +130,16 @@ button {
   font-weight: bolder;
 }
 
-.bottom_heading h1 {
-  background-color: 5px solid darkkhaki;
+.main__img {
+  width: 300px;
+  height: 300px;
+}
+
+.bottom__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 footer {
@@ -174,6 +186,7 @@ footer img {
   }
   .header {
     margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -188,6 +201,7 @@ footer img {
     text-align: left;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
   }
   .main {
     border: 5px solid deeppink;

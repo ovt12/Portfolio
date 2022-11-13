@@ -91,6 +91,7 @@ img {
 
 .body__nav {
   border: 2px solid red;
+  margin-bottom: 3rem;
 
 
   &--1 {
@@ -138,6 +139,7 @@ h2 {
   font-family: $text-heading;
   font-size: 2rem;
   font-weight: bolder;
+  text-align: start;
   
 }
 
@@ -158,6 +160,8 @@ p {
     border: 2px solid red;
     width: 95vw;
     padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: start;
     
 }
 
@@ -173,12 +177,23 @@ button {
 
 }
 
+// portfolio image
+
+.main__img {
+    width: 300px;
+    height: 300px
+}
+
 // bottom heading "get in touch"
-.bottom_heading {
+.bottom__heading {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
     
-    h1 {
-        background-color: 5px solid darkkhaki;
-    }
+    
+    
 }
 
 
@@ -241,6 +256,7 @@ img {
     // Placement of headings
     .header {
         margin-top: 5%;
+        margin-bottom: 5%;
         display: flex;
         flex-direction: column;
         width: 100vw;
@@ -260,6 +276,7 @@ img {
             text-align: left;
             display: flex;
             flex-direction: column;
+            margin-bottom: 3rem;
 
         }
     }
