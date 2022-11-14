@@ -86,7 +86,6 @@ h1 {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  width: 50vw;
 }
 
 .header__h1 {
@@ -114,7 +113,6 @@ p {
   color: #000000;
   line-height: 1.5;
   border: 2px solid red;
-  width: 95vw;
   padding-top: 1rem;
   padding-bottom: 2rem;
   text-align: start;
@@ -194,7 +192,6 @@ footer img {
   .header__h1 {
     font-size: 75px;
     text-align: center;
-    width: 100vw;
     margin-left: 150px;
   }
   .header__p {
@@ -258,7 +255,6 @@ footer img {
   }
   .bottom h1 {
     text-align: center;
-    margin-left: 400px;
   }
   button {
     border: 2px solid #000000;
