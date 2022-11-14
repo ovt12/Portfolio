@@ -292,6 +292,7 @@ img {
         &__h2 {
             border: 4px solid yellowgreen;
             width: 20%;
+        
 
         }
 
@@ -300,6 +301,17 @@ img {
             
             
         }
+    }
+ 
+
+    // divder for the portfolio image
+    .main__move--img {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-shrink: 2;
+    
     }
 
 

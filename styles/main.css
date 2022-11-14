@@ -215,6 +215,13 @@ footer img {
   .main__img {
     border: 4px solid blueviolet;
   }
+  .main__move--img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-shrink: 2;
+  }
   .main__div2 {
     display: flex;
     flex-direction: row;
