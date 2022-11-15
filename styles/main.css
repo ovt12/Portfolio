@@ -218,9 +218,9 @@ footer img {
   .main__move--img {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-shrink: 2;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: end;
   }
   .main__div2 {
     display: flex;
