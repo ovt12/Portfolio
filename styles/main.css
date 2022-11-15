@@ -201,6 +201,7 @@ footer img {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+    margin-left: 60px;
   }
   .main__h2 {
     width: 20%;
@@ -274,5 +275,10 @@ footer img {
   }
   .body__nav--1 {
     margin-left: 15px;
+  }
+  .body__nav {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

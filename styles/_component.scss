@@ -281,6 +281,7 @@ img {
             display: flex;
             flex-direction: column;
             margin-bottom: 3rem;
+            margin-left: 60px;
 
         }
     }
@@ -395,5 +396,10 @@ img {
 
 // SKILLS SECTION IMAGES
 
+.body__nav {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 }
