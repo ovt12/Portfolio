@@ -5,8 +5,15 @@
   text-align: center;
 }
 
+.deactive {
+  display: none;
+}
+
+.main__move--img {
+  display: none;
+}
+
 .article__div--active img {
-  border: 2px solid rgb(30, 174, 128);
   background-color: #000000;
   border-radius: 100%;
   padding: 0.4rem;
@@ -15,7 +22,6 @@
   height: 2rem;
 }
 .article__div--active .img__box {
-  border: 2px solid orange;
   border-radius: 0%;
   height: 10rem;
   width: 15rem;
@@ -26,7 +32,6 @@
   display: none;
 }
 .article__div--deactive img {
-  border: 2px solid rgb(178, 223, 30);
   background-color: #000000;
   border-radius: 100%;
   padding: 0.4rem;
@@ -35,7 +40,6 @@
   height: 2rem;
 }
 .article__div--deactive .img__box {
-  border: 2px solid rgb(142, 46, 182);
   border-radius: 0%;
   height: 19rem;
   width: 25rem;
@@ -43,7 +47,6 @@
 }
 
 .div__title {
-  border: 2px solid rgb(25, 136, 161);
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
@@ -58,38 +61,36 @@
 }
 
 .body__nav {
-  border: 2px solid red;
   margin-bottom: 3rem;
 }
 .body__nav--1 {
-  border: 2px solid rgb(102, 128, 54);
   font-family: "Cormorant";
   font-size: 1.5rem;
 }
 .body__nav--2 {
-  border: 2px solid red;
   display: none;
 }
 .body__nav--3 {
-  border: 2px solid red;
   display: none;
 }
 .body__nav--4 {
-  border: 2px solid red;
   display: none;
 }
 
 h1 {
   font-family: "Cormorant";
-  font-size: 50px;
+  font-size: 55px;
   font-weight: lighter;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .header__h1 {
   text-align: start;
+  padding-left: 10px;
 }
 
 h2 {
@@ -97,6 +98,7 @@ h2 {
   font-size: 2rem;
   font-weight: bolder;
   text-align: start;
+  margin-left: 20px;
 }
 
 h3 {
@@ -112,10 +114,10 @@ p {
   font-weight: bolder;
   color: #000000;
   line-height: 1.5;
-  border: 2px solid red;
   padding-top: 1rem;
   padding-bottom: 2rem;
   text-align: start;
+  margin: 0.5rem;
 }
 
 button {
@@ -128,9 +130,9 @@ button {
   font-weight: bolder;
 }
 
-.main__img {
-  width: 300px;
-  height: 300px;
+main .main__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .bottom__heading {
@@ -157,7 +159,6 @@ footer img {
 }
 
 .main__div2 {
-  border: 2px solid orange;
   display: none;
 }
 
@@ -192,35 +193,34 @@ footer img {
   .header__h1 {
     font-size: 75px;
     text-align: center;
-    margin-left: 150px;
+    justify-content: center;
   }
   .header__p {
-    border: 4px solid pink;
     width: 40vw;
     text-align: left;
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
   }
-  .main {
-    border: 5px solid deeppink;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-  }
   .main__h2 {
-    border: 4px solid yellowgreen;
     width: 20%;
-  }
-  .main__img {
-    border: 4px solid blueviolet;
   }
   .main__move--img {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-self: flex-start;
-    justify-content: end;
+    position: absolute;
+    width: 450.29px;
+    height: 400px;
+    left: 580px;
+    top: 550px;
+  }
+  .main__img--deactive {
+    display: none;
+  }
+  .main__content {
+    width: 50vw;
+  }
+  .main__div1 {
+    width: 50vw;
   }
   .main__div2 {
     display: flex;
@@ -232,9 +232,10 @@ footer img {
     width: 97%;
   }
   .main__div2--h2 {
-    border: 4px solid blue;
     display: flex;
     align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .article__div--active {
     display: flex;
@@ -260,16 +261,18 @@ footer img {
     display: flex;
     flex-wrap: nowrap;
   }
-  .bottom h1 {
-    text-align: center;
-  }
   button {
-    border: 2px solid #000000;
     height: 10vh;
     width: 20vw;
     padding: 2rem;
     margin: 2rem;
     font-family: "Cormorant";
     font-weight: bolder;
+  }
+  .main__div2--h2 p {
+    margin-left: 90px;
+  }
+  .body__nav--1 {
+    margin-left: 15px;
   }
 }/*# sourceMappingURL=main.css.map */

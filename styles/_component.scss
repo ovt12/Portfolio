@@ -8,6 +8,15 @@
 
 // Portfolio area as a whole
 
+.deactive {
+    display: none;
+}
+
+// this shows the profile picture on mboile view but the wrong pic
+.main__move--img {
+    display: none;
+}
+
 
 // Black Video Boxes(Mobile)
 
@@ -15,18 +24,18 @@
     
 img {   
         // small images next to video boxes
-        border: 2px solid rgb(30, 174, 128);
+    
         background-color: $color-black;
         border-radius: 100%;
         padding: 0.4rem;
         margin: 0.2rem;
         width: 2rem;
         height: 2rem;
+        
     }
 
 .img__box {
 
-        border: 2px solid orange;
         border-radius: 0%;
         height: 10rem;
         width: 15rem;
@@ -41,7 +50,6 @@ img {
     display: none;
 
     img {
-        border: 2px solid rgb(178, 223, 30);
         background-color: $color-black;
         border-radius: 100%;
         padding: 0.4rem;
@@ -51,7 +59,6 @@ img {
     }
 
     .img__box {
-        border: 2px solid rgb(142, 46, 182);
         border-radius: 0%;
         height: 19rem;
         width: 25rem;
@@ -64,13 +71,10 @@ img {
 // For the projects and symbols
 
 .div__title {
-    border: 2px solid rgb(25, 136, 161);
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
    
-    
-
     h3 {
         font-size: 1.5rem;
         
@@ -90,28 +94,24 @@ img {
 // Navigation Bar(Mobile)
 
 .body__nav {
-  border: 2px solid red;
   margin-bottom: 3rem;
 
 
   &--1 {
-    border: 2px solid rgb(102, 128, 54);
+    
     font-family: $text-heading;
     font-size: 1.5rem;
   }
 
   &--2 {
-    border: 2px solid red;
     display: none;
   }
 
   &--3 {
-    border: 2px solid red;
     display: none;
   }
 
   &--4 {
-    border: 2px solid red;
     display: none;
   }
 }
@@ -120,19 +120,21 @@ img {
 
 h1 {
   font-family: $text-heading;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: lighter;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   
-//   margin-top: 2rem;
-//   margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
 }
 
 .header__h1 {
     text-align: start;
+    padding-left: 10px;
+    
 }
 
 h2 {
@@ -140,6 +142,7 @@ h2 {
   font-size: 2rem;
   font-weight: bolder;
   text-align: start;
+  margin-left: 20px;
   
 }
 
@@ -157,10 +160,10 @@ p {
     font-weight: bolder;
     color: $color-black;
     line-height: 1.5;
-    border: 2px solid red;
     padding-top: 1rem;
     padding-bottom: 2rem;
     text-align: start;
+    margin: 0.5rem;
     
 }
 
@@ -178,10 +181,15 @@ button {
 
 // portfolio image
 
-.main__img {
-    width: 300px;
-    height: 300px
+main {
+    .main__content {
+        display: flex;
+        flex-direction: column;
+    }
 }
+//  takes away the profile picture not needed
+
+
 
 // bottom heading "get in touch"
 .bottom__heading {
@@ -218,10 +226,7 @@ img {
 // desktop components not needed for mobile
 
 .main__div2 {
-
-  border: 2px solid orange;
   display: none;
-
 }
 
 
@@ -266,12 +271,11 @@ img {
         &__h1 {
             font-size: 75px;
             text-align: center; 
-            margin-left: 150px;
+            justify-content: center;
 
         }
 
         &__p {
-            border: 4px solid pink;
             width: 40vw;
             text-align: left;
             display: flex;
@@ -283,38 +287,35 @@ img {
 
     // About sections placement
     .main {
-        border: 5px solid deeppink;
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-
-
         &__h2 {
-            border: 4px solid yellowgreen;
             width: 20%;
-        
-
-        }
-
-        &__img {
-            border: 4px solid blueviolet;
-            
         }
     }
- 
 
     // divder for the portfolio image
     .main__move--img {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        align-self: flex-start;
-        justify-content: end;
+        
+    display: flex;
+    position: absolute;
+    width: 450.29px;
+    height: 400px;
+    left: 580px;
+    top: 550px;
+	    
+ }
+    .main__img--deactive {
+        display: none;
+    }
 
-    
+    .main__content {
+        width: 50vw;
     }
 
 
+
+    .main__div1 {
+        width: 50vw
+    }
     .main__div2 {
 
         display: flex;
@@ -326,9 +327,10 @@ img {
         width: 97%;
 
         &--h2 {
-            border: 4px solid blue;
             display: flex;
             align-items: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
             
         }
 
@@ -351,7 +353,7 @@ img {
     }
     
 }
-
+// DEACTIVE DIV ON DESKTOP
 .article__div--deactive {
 
     display: flex;
@@ -368,15 +370,8 @@ img {
 
 }
 
-.bottom {
-    
-    h1 {
-        text-align: center;
-    }
-}
-
-button {
-    border: 2px solid #000000;
+// BOTTOM BUTTON AND HEADING
+    button {
     height: 10vh;
     width: 20vw;
     padding: 2rem;
@@ -384,17 +379,21 @@ button {
     font-family: "Cormorant";
     font-weight: bolder;
 }
-               
 
+// spacing around the SKILLS
+
+.main__div2--h2 {
+    p {
+        margin-left: 90px;
+    }
+}
+            
+// spacing around OLIVER TAYLOR.
+.body__nav--1 {
+    margin-left: 15px;
+}
+
+// SKILLS SECTION IMAGES
 
 
 }
-            
-        
-        
-      
-    
-
-    
-        
-     
