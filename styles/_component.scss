@@ -17,6 +17,10 @@
     display: none;
 }
 
+.main__img--deactive {
+
+    width: 300px;
+}
 
 // Black Video Boxes(Mobile)
 
@@ -306,6 +310,7 @@ img {
  }
     .main__img--deactive {
         display: none;
+        
     }
 
     .main__content {

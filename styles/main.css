@@ -13,6 +13,10 @@
   display: none;
 }
 
+.main__img--deactive {
+  width: 300px;
+}
+
 .article__div--active img {
   background-color: #000000;
   border-radius: 100%;
