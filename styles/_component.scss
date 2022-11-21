@@ -292,6 +292,7 @@ img {
 
     // About sections placement
     .main {
+
         &__h2 {
             width: 20%;
         }
@@ -300,12 +301,12 @@ img {
     // divder for the portfolio image
     .main__move--img {
         
-    display: flex;
-    position: absolute;
-    width: 450.29px;
-    height: 400px;
-    left: 580px;
-    top: 550px;
+    display: none
+    // position: absolute;
+    // width: 450.29px;
+    // height: 400px;
+    // left: 580px;
+    // top: 550px;
 	    
  }
     .main__img--deactive {
@@ -406,5 +407,25 @@ img {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+
+.main__move--img {
+    display: block;
+    padding-left: 70px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .main__h2 { grid-area: 1 / 1 / 2 / 2; }
+    .main__content { grid-area: 2 / 1 / 3 / 2;  }
+    .main__move--img{ grid-area: 2 / 2 / 3 / 3; }
 
 }
