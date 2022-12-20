@@ -18,7 +18,6 @@
 }
 
 .article__div--active img {
-  background-color: #000000;
   border-radius: 100%;
   padding: 0.4rem;
   margin: 0.2rem;
@@ -36,7 +35,6 @@
   display: none;
 }
 .article__div--deactive img {
-  background-color: #000000;
   border-radius: 100%;
   padding: 0.4rem;
   margin: 0.2rem;
@@ -51,8 +49,6 @@
 }
 
 .div__title {
-  display: flex;
-  justify-content: space-between;
   font-size: 1rem;
 }
 .div__title h3 {
@@ -101,7 +97,6 @@ h2 {
   font-family: "Cormorant";
   font-size: 2rem;
   font-weight: bolder;
-  text-align: start;
   margin-left: 20px;
 }
 
@@ -169,7 +164,7 @@ footer img {
 @media screen and (min-width: 1024px) {
   .body__nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-family: "Inter";
     font-weight: bolder;
   }
@@ -200,7 +195,7 @@ footer img {
     justify-content: center;
   }
   .header__p {
-    width: 40vw;
+    width: 90vw;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -271,6 +266,7 @@ footer img {
   }
   .main__div2--h2 p {
     margin-left: 90px;
+    margin-top: 30px;
   }
   .body__nav--1 {
     margin-left: 15px;
