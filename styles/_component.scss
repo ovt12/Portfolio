@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+.button {
+  width: 10vw;
+  height: 5vh;
+  margin: 2em;
+}
+
 // Portfolio area as a whole
 
 .deactive {
@@ -149,7 +155,7 @@ p {
   margin: 0.5rem;
 }
 
-button {
+.contact {
   border: 2px solid $color-black;
   height: 10vh;
   width: 60vw;
@@ -303,8 +309,8 @@ footer {
     .img__box {
       width: 20vw;
       height: 15vh;
-      display: flex;
-      flex-wrap: nowrap;
+      // display: flex;
+      // flex-wrap: nowrap;
     }
   }
   // DEACTIVE DIV ON DESKTOP
@@ -323,7 +329,7 @@ footer {
   }
 
   // BOTTOM BUTTON AND HEADING
-  button {
+  .contact {
     height: 10vh;
     width: 20vw;
     padding: 2rem;

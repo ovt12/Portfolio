@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.button {
+  width: 10vw;
+  height: 5vh;
+  margin: 2em;
+}
+
 .deactive {
   display: none;
 }
@@ -119,7 +125,7 @@ p {
   margin: 0.5rem;
 }
 
-button {
+.contact {
   border: 2px solid #000000;
   height: 10vh;
   width: 60vw;
@@ -241,8 +247,6 @@ footer img {
   .article__div--active .img__box {
     width: 20vw;
     height: 15vh;
-    display: flex;
-    flex-wrap: nowrap;
   }
   .article__div--deactive {
     display: flex;
@@ -256,7 +260,7 @@ footer img {
     display: flex;
     flex-wrap: nowrap;
   }
-  button {
+  .contact {
     height: 10vh;
     width: 20vw;
     padding: 2rem;
