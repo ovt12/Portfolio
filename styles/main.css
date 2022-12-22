@@ -6,13 +6,20 @@
 }
 
 .button {
-  color: white;
-  opacity: 50%;
-  width: 10vw;
-  height: 5vh;
+  color: black;
+  width: 4rem;
+  height: 3rem;
   margin: 2em;
   border-radius: 35%;
-  background-color: rgb(0, 0, 0);
+  background-color: yellow;
+}
+
+.code {
+  padding-right: 5rem;
+}
+
+a:active {
+  color: red;
 }
 
 .deactive {
@@ -115,6 +122,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: bolder;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -124,7 +132,6 @@ p {
   color: #000000;
   line-height: 1.5;
   padding-top: 1rem;
-  padding-bottom: 2rem;
   text-align: start;
   margin: 0.5rem;
 }
